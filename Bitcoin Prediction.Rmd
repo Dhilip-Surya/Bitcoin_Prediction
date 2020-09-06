@@ -24,7 +24,7 @@ library(tseries)
 
 
 ```{r}
-csv_data <- read.csv('C:/Users/dhili/Downloads/market-price.csv' ,header = FALSE)
+csv_data <- read.csv('market-price.csv' ,header = FALSE)
 csv_df <- data.frame(csv_data)
 
 csv_df$Close <- csv_df$V2
